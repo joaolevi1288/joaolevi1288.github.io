@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yusei+Magic&display=swap');
+
+body{
+    font-family: "Roboto",sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.content--menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.content--menu h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #284767;
+}
+
+.content--menu p{
+    font-size: 36px;
+    font-weight: 600;
+    color: #284767;
+}
+
+.content--menu{
+    align-items: center;
+}
+
+.user--area{
+    display: flex;
+    align-items: center;
+}
+
+.user--area ul{
+    display: flex;
+    gap: 30px;
+}
+
+.user--area ul li a {
+    text-decoration: none;
+    color: #284767;
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.user--area ul li a:hover{
+    border-bottom: 1px solid #284767;
+}
+
+.Gol-Bolinha{
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #284767;
+    padding: 70px 0;
+}
+
+.content--devices{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.Gol-Bolinha h1{
+    font-size: 36px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.Gol-Bolinha p{
+    font-size: 1em;
+}
+
+.content--table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 58px 12px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 0px 58px 12px rgba(0,0,0,0.24);
+    box-shadow: 0px 0px 58px 12px rgba(0,0,0,0.24);
+}
+
+.content--table thead tr{
+    background-color: #284767;
+    color: #fff;
+    text-align: left;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.content--table th, .content--table td{
+    padding: 12px 15px;
+}
+
+.content--table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.content--table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.content--table tbody tr:last-of-type{
+    border-bottom: 2px solid #284767
+}
+
+.attention{
+    color: rgb(255, 174, 0);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.warning{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.new--device{
+    display: flex;
+    justify-content: end;
+}
+
+.new--device button{
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #284767;
+    border: 2px solid #284767;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.new--device button:hover{
+    color: #fff;
+    background-color: #284767;
+    border: 2px solid #284767;
+    transition: 0.3s ease-in-out;
+}
+
+.content--upgrades{
+    display: flex;
+    padding: 15px 0;
+}
+
+.content--upgrades .map{
+    width: 50%;
+}
+
+.content--upgrades .map img{
+    border-radius: 15px 0 15px 0;
+    border: 1px solid #000;
+}
+
+.content--upgrades p{
+    width: 25%;
+    
+}
+
+.especification{
+    background-color: #f2f2f2;
+    width: 50%;
+    border-radius: 0px 15px 0px 15px;
+}
+
+.especification p{
+    width: 75%;
+    padding: 10px;
+    font-size: 1.0em;
+    line-height: 20px;
+}
+
+.especification .yellow{
+    font-weight: bold;
+    color: rgb(255, 174, 0);
+}
+
+.especification .red{
+    font-weight: bold;
+    color: red;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+    border-radius: 0px 15px 0px 15px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+}
+
+.information p{
+    padding: 10px 0;
+}
+
+.input-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    gap: 10px;
+}
+
+.input-contact input{
+    padding: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+    font-size: 15px;
+}
+
+.input-contact input[type=button]{
+    border: none;
+    cursor: pointer;
+    color: #284767;
+    border: 1px solid #284767;
+    padding: 20px 40px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.input-contact input[type=button]:hover{
+    color: #fff;
+    background-color: #284767;
+    border: 1px solid #284767;
+    transition: 0.3s ease-in-out;
+}
+
+footer{
+    background-color: #284767;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}

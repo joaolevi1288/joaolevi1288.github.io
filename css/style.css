@@ -1,0 +1,450 @@
+body{
+    background-color: #f2f2f2;
+    font-family: "Montserrat", sans-serif;
+    color: #284767;
+}
+
+main, section{
+    scroll-margin-top: 80px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 28px 0;
+}
+
+.menu ul{
+    display: flex;
+    gap: 30px;
+}
+
+.menu ul li a{
+    color: #284767;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 28px 2px;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover{
+    border-bottom: 2px solid #284767;
+    transition: 0.5s;
+}
+
+.brand h1 a{
+    text-decoration: none;
+    color: #284767;
+    font-weight: 900;
+    font-size: 28px
+}
+
+.home{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home .introduction{
+    width: 50%;
+    text-align: center;
+    gap: 20px;
+}
+
+.home .introduction h1{
+    padding: 15px 0;
+    font-weight: 700;
+    width: 75%;
+    font-size: 50px;
+}
+
+.home .introduction p{
+    width: 75%;
+    font-size: 18px;
+}
+
+.cellphone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cellphone picture{
+    margin: 0 auto;
+}
+
+.cellphone img{
+    width: 600px;
+    margin-top: 30px;
+    border-radius: 200px;
+}
+
+.about--us{
+    display: flex;
+    background-color: #284767;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.content-about{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.hero{
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+.content-about h1, .know-how h1{
+    padding: 30px 0;
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.hero p, .content-how p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    width: 50%;
+    text-align: justify;
+}
+
+.hero picture img{
+    width: 50%;
+}
+
+.project h1, .contact-us h1{
+    padding: 30px 0;
+    font-size: 36px;
+    font-weight: 500;
+    color: #284767;
+    text-align: center;
+}
+
+.project{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.content-project{
+    display: flex;
+    padding: 100px;
+}
+
+.content-project p{
+    font-size: 20px;
+    line-height: 30px;
+    width: 50%;
+    text-align: justify;
+}
+
+.iot-pic img{
+    width: 50%;
+}
+
+.iot-pic{
+    display: flex;
+    justify-content: end;
+}
+
+.know-how{
+    background-color: #284767;
+}
+
+.content-how{
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 100px
+}
+
+.arduino{
+    display: flex;
+    justify-content: start;
+}
+.content-how .arduino img{
+    width: 50%;
+}
+
+.contact-us{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.information p{
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.information form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.information input[type=text], .information input[type=email]{
+    border: 1px solid #284767;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.information input[type=button]{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #284767;
+    border: 2px solid #f2f2f2;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.information input[type=button]:hover{
+    color: #284767;
+    background-color: #fff;
+    border: 2px solid #284767;
+    transition: 0.3s ease-in-out;
+}
+
+footer{
+    background-color: #284767;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Aqui começa o CSS do HTML da Página de Controle */
+
+
+.Gol-Bolinha{
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #284767;
+    padding: 100px 0;
+}
+
+.content--devices{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.Gol-Bolinha h1{
+    font-size: 36px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.Gol-Bolinha p{
+    font-size: 1em;
+}
+
+.content--table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 800px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 58px 12px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 0px 58px 12px rgba(0,0,0,0.24);
+    box-shadow: 0px 0px 58px 12px rgba(0,0,0,0.24);
+}
+
+.content--table thead tr{
+    background-color: #284767;
+    color: #fff;
+    text-align: left;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.content--table th, .content--table td{
+    padding: 12px 15px;
+}
+
+.content--table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.content--table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.content--table tbody tr:last-of-type{
+    border-bottom: 2px solid #284767
+}
+
+.attention{
+    color: rgb(255, 174, 0);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.warning{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.new--device{
+    display: flex;
+    justify-content: end;
+}
+
+.new--device button{
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #284767;
+    border: 2px solid #284767;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.new--device button:hover{
+    color: #fff;
+    background-color: #284767;
+    border: 2px solid #284767;
+    transition: 0.3s ease-in-out;
+}
+
+.content--upgrades{
+    display: flex;
+    padding: 15px 0;
+}
+
+.content--upgrades .map{
+    width: 50%;
+}
+
+.content--upgrades .map img{
+    border-radius: 15px 0 15px 0;
+    border: 1px solid #000;
+}
+
+.content--upgrades p{
+    width: 25%;
+    
+}
+
+.especification{
+    background-color: #f2f2f2;
+    width: 50%;
+    border-radius: 0px 15px 0px 15px;
+}
+
+.especification p{
+    width: 75%;
+    padding: 10px;
+    font-size: 1.0em;
+    line-height: 20px;
+}
+
+.especification .yellow{
+    font-weight: bold;
+    color: rgb(255, 174, 0);
+}
+
+.especification .red{
+    font-weight: bold;
+    color: red;
+}
+
+
+/* Aqui começa o CSS do HTML da Página de Controle */
+
+
+.formulario-login{
+    padding-top: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:70px;
+}
+
+.formulario-login h1{
+    text-decoration: none;
+    color: #284767;
+    font-weight: 800;
+    font-size: 40px;
+    padding: 30px;
+
+}
+
+.loginbox{
+    border:#969696 2px solid;
+    border-radius: 15px;
+    max-width: 500px;
+    padding: 30px
+}
+
+.tela-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.tela-login input[type=password], .tela-login input[type=email]{
+    border: 1px solid #284767;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.tela-login a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #284767;
+    border: 2px solid #f2f2f2;
+    padding: 8px 115px 8px 115px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.tela-login a:hover{
+    color: #284767;
+    background-color: #fff;
+    border: 2px solid #284767;
+    transition: 0.3s ease-in-out;
+}
+
+.footer-login{
+    margin-top: 118px;
+    background-color: #284767;
+    color: #fff;
+    text-align: center;
+    padding:5px;
+}

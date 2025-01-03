@@ -1,0 +1,181 @@
+/* 2xl */
+@media (max-width: 1536px) {
+    
+}
+
+/* xl */
+@media (max-width: 1280px) {
+
+}
+
+/* lg */
+@media (max-width: 1024px) {
+   
+    
+}
+
+/* md */
+@media (max-width: 768px) {
+
+    .container{
+        margin: 0 auto
+    }
+
+    .content--menu{
+        flex-direction: column;
+    }
+
+    .content--menu h1{
+        display: none;
+    }
+
+    .user--area {
+        padding: 10px;
+    }
+
+    .gol--bolinha{
+        display: flex;
+
+    }
+
+    .gol--bolinha h1{
+        padding: 100px;
+    }
+
+    .content--table{
+        box-shadow: none;
+    }
+
+    .content--upgrades{
+        flex-direction: column;
+    }
+
+    .especification{
+        width: 100%;
+    }
+
+    .map img{
+        min-width: 100px;
+    }
+
+    .new--device{
+        justify-content: center;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .contact-us{
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .title{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content--table{
+        min-width: none;
+        max-width: 400px;
+        margin: 0 auto;
+        table-layout: fixed;
+    }
+
+    .content--table th{
+        display: none;
+    }
+
+    .content--table td{
+        display: grid;
+        grid-template-columns: 15ch auto;
+        width: 50%;
+        padding: 0.5rem 1rem;
+    }
+
+    .content--table td::before{
+        content: attr(data-cell) ": ";
+        font-weight: 700;
+    }
+
+    .new--device{
+        justify-content: center;
+    }
+}
+   
+
+/* sm */
+@media (max-width: 640px) {
+
+
+    .menu{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .content--table tr{
+        width: 100%;
+        margin: 0 auto;
+        table-layout: fixed;
+        border: 2px solid #284767;
+    }
+
+    .title p{
+        padding-bottom: .5em;
+    }
+
+    .advices{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .content--upgrades .map{
+        width: 100%;
+        max-width: 640px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .map img{
+        max-width: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .especification{
+        max-width: 400px;
+        padding: 1rem;
+        font-size: 1.5em;
+        gap: 1.5rem;
+        width: 500px;
+    }
+
+    .especification p{
+        gap: 1.5rem;
+        text-align: justify;
+    }
+
+    .contact-us{
+        display: block;
+        margin: 0 auto;
+        font-size: 1.5em;
+    }
+
+    .information p{
+        display: none;
+    }
+
+    .input--contact{
+        max-width: none;
+        width: 100vh;
+    }
+
+
+}
+
+/* xs */
+@media (max-width: 475px) {
+    
+}
